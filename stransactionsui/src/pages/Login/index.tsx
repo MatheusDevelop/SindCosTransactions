@@ -16,6 +16,7 @@ export default function Login({ setLogado }: { setLogado(): void }) {
       alert("Login invalido");
     else {
       setLogado();
+      localStorage.setItem("admin-sindcos-logado", "true");
       navigate("/admin");
     }
   };
