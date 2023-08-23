@@ -40,7 +40,7 @@ export default function TicketForm() {
               <CompanyDetailsForm cnpj={cnpj} nextStep={onTicketRequestEnd} />
             )}
             {activeStep == 2 && (
-              <>Boleto solicitado com sucesso, aguarde a confirmação</>
+              <>Boleto solicitado com sucesso, entraremos em contato em breve</>
             )}
           </React.Fragment>
         </Paper>
